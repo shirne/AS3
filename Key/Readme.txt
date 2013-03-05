@@ -3,7 +3,7 @@ https://github.com/cleod9
 
 Free to use in any projects without notifying me, nor is credit needed. Just do not re-distribute it under anyone else's name!
 
-----------------------------------
+-----------------------------------
 
 About Key utility:
 
