@@ -1,4 +1,4 @@
 Public
 ======
 
-Public source code for various coding languages
+Free to use public source code for various coding languages.
