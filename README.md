@@ -1,4 +1,4 @@
-Public
+AS3
 ======
 
-Free to use public source code for various coding languages.
+This repo contains various AS3 libraries and tools I've written over the years.
