@@ -148,6 +148,27 @@
 		}
 		
 		/**
+		 * Rename a key
+		 * @param	key The key to be renamed
+		 * @param	newKey The new name for the key
+		 * @return True if the rename is successful
+		 */
+		public function renameKey(key:String, newKey:String):Boolean
+		{
+			if (getKey(newKey))
+			{
+				trace("Error, key already exists: " + newKey);
+				return false;
+			} else if (!getKey(key))
+			{
+				trace("Error, key does not exist: " + key);
+				return false;
+			}
+			m_keys[m_keys.indexOf(key)] = newKey;
+			return true;
+		}
+		
+		/**
 		 * Sets a key to a value, or adds it if it doesn't exist
 		 * @param	key They key whose mapping will be changed
 		 * @param	obj The object to map to the given key
